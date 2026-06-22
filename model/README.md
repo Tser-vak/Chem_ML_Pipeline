@@ -40,8 +40,8 @@ Actual Active           53 (FN)           790 (TP)
 
 The model's default decision boundary is 0.5 (standard probability cutoff). At this threshold:
 
-- **Recall was high (93.7%)** — very few active molecules were missed.
-- **Specificity was low (53.6%)** — roughly half of inactive molecules were incorrectly flagged as active.
+- **Recall was high (91.7%)** — very few active molecules were missed.
+- **Specificity was low (68.1%)** — roughly half of inactive molecules were incorrectly flagged as active.
 
 For a screening tool, generating too many false positives is costly — it sends inactive molecules downstream into more expensive validation steps. To correct this trade-off, the **production threshold was raised to 0.60**:
 
